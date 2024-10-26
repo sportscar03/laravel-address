@@ -1,6 +1,6 @@
 <?php
 
-namespace Yajra\Address\Repositories;
+namespace Sportscar03\Address\Repositories;
 
 use BadMethodCallException;
 use Illuminate\Database\Eloquent\Model;

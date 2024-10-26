@@ -1,6 +1,6 @@
 <?php
 
-namespace Yajra\Address\Repositories\Provinces;
+namespace Sportscar03\Address\Repositories\Provinces;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
@@ -8,17 +8,17 @@ use Illuminate\Database\Eloquent\Model;
 interface ProvincesRepository
 {
     /**
-     * @return \Illuminate\Database\Eloquent\Collection<array-key, \Yajra\Address\Entities\Province>
+     * @return \Illuminate\Database\Eloquent\Collection<array-key, \Sportscar03\Address\Entities\Province>
      */
     public function getByRegion(string $regionId): Collection;
 
     /**
-     * @return \Illuminate\Database\Eloquent\Collection<array-key, \Yajra\Address\Entities\Province>
+     * @return \Illuminate\Database\Eloquent\Collection<array-key, \Sportscar03\Address\Entities\Province>
      */
     public function all(): Collection;
 
     /**
-     * @return \Yajra\Address\Entities\Province
+     * @return \Sportscar03\Address\Entities\Province
      */
     public function getModel(): Model;
 }

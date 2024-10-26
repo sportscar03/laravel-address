@@ -1,6 +1,6 @@
 <?php
 
-namespace Yajra\Address\Repositories\Regions;
+namespace Sportscar03\Address\Repositories\Regions;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
@@ -13,7 +13,7 @@ interface RegionsRepository
     public function all(): Collection;
 
     /**
-     * @return \Yajra\Address\Entities\Region
+     * @return \Sportscar03\Address\Entities\Region
      */
     public function getModel(): Model;
 }

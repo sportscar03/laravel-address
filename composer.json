@@ -1,19 +1,19 @@
 {
-    "name": "yajra/laravel-address",
+    "name": "sportscar03/laravel-address",
     "description": "Philippines Address Lookup API for Laravel.",
     "keywords": [
-        "yajra",
+        "philippines",
         "laravel",
         "address"
     ],
-    "homepage": "https://github.com/yajra/laravel-address",
+    "homepage": "https://github.com/sportscar03/laravel-address",
     "license": "MIT",
     "authors": [
         {
-            "name": "Arjay Angeles",
-            "email": "aqangeles@gmail.com",
-            "homepage": "http://yajrabox.com",
-            "role": "Developer"
+            "name": "Jayson Ventura",
+            "email": "jgventura03business@gmail.com",
+            "homepage": "https://github.com/sportscar03",
+            "role": "Software Developer"
         }
     ],
     "require": {
@@ -34,13 +34,13 @@
     },
     "autoload": {
       "psr-4": {
-            "Yajra\\Address\\": "src",
-            "Yajra\\Address\\Seeders\\": "database/seeders"
+            "Sportscar03\\Address\\": "src",
+            "Sportscar03\\Address\\Seeders\\": "database/seeders"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Yajra\\Address\\Tests\\": "tests"
+            "Sportscar03\\Address\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -52,7 +52,7 @@
         },
         "laravel": {
             "providers": [
-                "Yajra\\Address\\AddressServiceProvider"
+                "Sportscar03\\Address\\AddressServiceProvider"
             ]
         }
     },

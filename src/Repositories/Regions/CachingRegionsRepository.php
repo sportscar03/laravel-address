@@ -1,6 +1,6 @@
 <?php
 
-namespace Yajra\Address\Repositories\Regions;
+namespace Sportscar03\Address\Repositories\Regions;
 
 use Illuminate\Contracts\Cache\Repository as Cache;
 use Illuminate\Database\Eloquent\Collection;
@@ -13,7 +13,7 @@ class CachingRegionsRepository extends RegionsRepositoryEloquent implements Regi
     }
 
     /**
-     * @return \Illuminate\Database\Eloquent\Collection<\Yajra\Address\Entities\Region>
+     * @return \Illuminate\Database\Eloquent\Collection<\Sportscar03\Address\Entities\Region>
      */
     public function all(): Collection
     {

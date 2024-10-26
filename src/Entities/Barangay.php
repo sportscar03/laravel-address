@@ -1,6 +1,6 @@
 <?php
 
-namespace Yajra\Address\Entities;
+namespace Sportscar03\Address\Entities;
 
 use Illuminate\Database\Eloquent\Model;
 

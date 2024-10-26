@@ -1,6 +1,6 @@
 <?php
 
-namespace Yajra\Address\Repositories\Barangays;
+namespace Sportscar03\Address\Repositories\Barangays;
 
 use Illuminate\Contracts\Cache\Repository as Cache;
 use Illuminate\Database\Eloquent\Collection;

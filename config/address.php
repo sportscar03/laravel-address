@@ -1,9 +1,9 @@
 <?php
 
-use Yajra\Address\Entities\Barangay;
-use Yajra\Address\Entities\City;
-use Yajra\Address\Entities\Province;
-use Yajra\Address\Entities\Region;
+use Sportscar03\Address\Entities\Barangay;
+use Sportscar03\Address\Entities\City;
+use Sportscar03\Address\Entities\Province;
+use Sportscar03\Address\Entities\Region;
 
 return [
 

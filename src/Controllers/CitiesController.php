@@ -1,10 +1,10 @@
 <?php
 
-namespace Yajra\Address\Controllers;
+namespace Sportscar03\Address\Controllers;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Routing\Controller;
-use Yajra\Address\Repositories\Cities\CitiesRepository;
+use Sportscar03\Address\Repositories\Cities\CitiesRepository;
 
 class CitiesController extends Controller
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Yajra\Address\Repositories\Regions;
+namespace Sportscar03\Address\Repositories\Regions;
 
 use Illuminate\Database\Eloquent\Model;
-use Yajra\Address\Entities\Region;
-use Yajra\Address\Repositories\EloquentBaseRepository;
+use Sportscar03\Address\Entities\Region;
+use Sportscar03\Address\Repositories\EloquentBaseRepository;
 
 class RegionsRepositoryEloquent extends EloquentBaseRepository implements RegionsRepository
 {

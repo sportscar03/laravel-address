@@ -12,13 +12,13 @@ A package for providing Philippines Address lookup API with Laravel.
 ## Installation
 
 ``` bash
-composer require yajra/laravel-address
+composer require sportscar03/laravel-address
 ```
 
 ### Register service provider (Optional on Laravel 5.5+)
 
 ```php
-Yajra\Address\AddressServiceProvider::class
+Sportscar03\Address\AddressServiceProvider::class
 ```
 
 ### Publish config (Optional)
@@ -44,7 +44,7 @@ php artisan migrate
 - Run the address seeder. 
 
 ```bash
-php artisan db:seed Yajra\\Address\\Seeders\\AddressSeeder
+php artisan db:seed Sportscar03\\Address\\Seeders\\AddressSeeder
 ````
 
 ## Routes
@@ -87,10 +87,10 @@ Before the end of body tag, include `@stack('scripts')`.
 
 ## Model with Address Integration
 
-Just use `Yajra\Address\HasAddress` trait on your model to load address models relationship.
+Just use `Sportscar03\Address\HasAddress` trait on your model to load address models relationship.
 
 ```php
-use Yajra\Address\HasAddress;
+use Sportscar03\Address\HasAddress;
 
 class User extends Model {
     use HasAddress;

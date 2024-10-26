@@ -11,7 +11,7 @@
 |
 */
 
-use Yajra\Address\Tests\TestCase;
+use Sportscar03\Address\Tests\TestCase;
 
 uses(TestCase::class)->in('Feature');
 

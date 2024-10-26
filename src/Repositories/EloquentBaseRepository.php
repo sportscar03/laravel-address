@@ -1,6 +1,6 @@
 <?php
 
-namespace Yajra\Address\Repositories;
+namespace Sportscar03\Address\Repositories;
 
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Collection;

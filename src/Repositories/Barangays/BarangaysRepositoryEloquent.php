@@ -1,11 +1,11 @@
 <?php
 
-namespace Yajra\Address\Repositories\Barangays;
+namespace Sportscar03\Address\Repositories\Barangays;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
-use Yajra\Address\Entities\Barangay;
-use Yajra\Address\Repositories\EloquentBaseRepository;
+use Sportscar03\Address\Entities\Barangay;
+use Sportscar03\Address\Repositories\EloquentBaseRepository;
 
 class BarangaysRepositoryEloquent extends EloquentBaseRepository implements BarangaysRepository
 {

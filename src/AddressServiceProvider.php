@@ -1,26 +1,26 @@
 <?php
 
-namespace Yajra\Address;
+namespace Sportscar03\Address;
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use Yajra\Address\Controllers\BarangaysController;
-use Yajra\Address\Controllers\CitiesController;
-use Yajra\Address\Controllers\ProvincesController;
-use Yajra\Address\Controllers\RegionsController;
-use Yajra\Address\Repositories\Barangays\BarangaysRepository;
-use Yajra\Address\Repositories\Barangays\BarangaysRepositoryEloquent;
-use Yajra\Address\Repositories\Barangays\CachingBarangaysRepository;
-use Yajra\Address\Repositories\Cities\CachingCitiesRepository;
-use Yajra\Address\Repositories\Cities\CitiesRepository;
-use Yajra\Address\Repositories\Cities\CitiesRepositoryEloquent;
-use Yajra\Address\Repositories\Provinces\CachingProvincesRepository;
-use Yajra\Address\Repositories\Provinces\ProvincesRepository;
-use Yajra\Address\Repositories\Provinces\ProvincesRepositoryEloquent;
-use Yajra\Address\Repositories\Regions\CachingRegionsRepository;
-use Yajra\Address\Repositories\Regions\RegionsRepository;
-use Yajra\Address\Repositories\Regions\RegionsRepositoryEloquent;
+use Sportscar03\Address\Controllers\BarangaysController;
+use Sportscar03\Address\Controllers\CitiesController;
+use Sportscar03\Address\Controllers\ProvincesController;
+use Sportscar03\Address\Controllers\RegionsController;
+use Sportscar03\Address\Repositories\Barangays\BarangaysRepository;
+use Sportscar03\Address\Repositories\Barangays\BarangaysRepositoryEloquent;
+use Sportscar03\Address\Repositories\Barangays\CachingBarangaysRepository;
+use Sportscar03\Address\Repositories\Cities\CachingCitiesRepository;
+use Sportscar03\Address\Repositories\Cities\CitiesRepository;
+use Sportscar03\Address\Repositories\Cities\CitiesRepositoryEloquent;
+use Sportscar03\Address\Repositories\Provinces\CachingProvincesRepository;
+use Sportscar03\Address\Repositories\Provinces\ProvincesRepository;
+use Sportscar03\Address\Repositories\Provinces\ProvincesRepositoryEloquent;
+use Sportscar03\Address\Repositories\Regions\CachingRegionsRepository;
+use Sportscar03\Address\Repositories\Regions\RegionsRepository;
+use Sportscar03\Address\Repositories\Regions\RegionsRepositoryEloquent;
 
 class AddressServiceProvider extends ServiceProvider
 {
