@@ -49,13 +49,13 @@ php artisan db:seed Sportscar03\\Address\\Seeders\\AddressSeeder
 
 ## Routes
 
-The default prefix for the api routes is `/api/address`. The default can be updated via config `address.php` file.
+The default prefix for the api routes is `/api/v1/address`. The default can be updated via config `address.php` file.
 
-- Get All Regions `/api/address/regions`.
-- Get All Provinces `/api/address/provinces`.
-- Get Provinces By Region `/api/address/provinces/{regionId}`.
-- Get Cities By Province `/api/address/cities/{provinceId}`.
-- Get Barangays By City `/api/address/barangays/{cityId}`.
+- Get All Regions `/api/v1/address/regions`.
+- Get All Provinces `/api/v1/address/provinces`.
+- Get Provinces By Region `/api/v1/address/provinces/{regionId}`.
+- Get Cities By Province `/api/v1/address/cities/{provinceId}`.
+- Get Barangays By City `/api/v1/address/barangays/{cityId}`.
 
 ## Usage / Examples
 
