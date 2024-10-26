@@ -12,7 +12,7 @@ A package for providing Philippines Address lookup API with Laravel.
 ## Installation
 
 ``` bash
-composer require sportscar03/laravel-address
+composer require sportscar03/laravel-address:dev-master
 ```
 
 ### Register service provider (Optional on Laravel 5.5+)
