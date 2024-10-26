@@ -24,7 +24,7 @@ Sportscar03\Address\AddressServiceProvider::class
 ### Publish config (Optional)
 
 ```bash
-php artisan vendor:publish
+php artisan vendor:publish --tag=address --force
 ```
 
 ## Available Config
